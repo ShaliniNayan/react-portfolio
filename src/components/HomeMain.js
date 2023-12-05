@@ -2,7 +2,7 @@ import './HomeMainStyles.css';
 
 import React from 'react';
 
-import IntroImg from '../images/intro-bg.jpg';
+import IntroImg from '../images/intro-bg1.jpeg';
 import { Link } from 'react-router-dom';
 
 const HomeMain = () => {
@@ -13,7 +13,6 @@ const HomeMain = () => {
       </div>
       <div className='content'>
         <p>
-          {' '}
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
           you see and have a project you need coded, don’t hestiate to contact
