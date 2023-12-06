@@ -12,11 +12,13 @@ const HomeMain = () => {
         <img className='intro-img' src={IntroImg} alt='IntroImg' />
       </div>
       <div className='content'>
+        <h1>I’m Shalini Nayan</h1>
         <p>
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
+          Passionate Full-Stack Software Engineer skilled in React, Ruby on
+          Rails, and writing reusable code for efficient, user-friendly systems.
+          Led a team to complete a 3-week project in half the time with a 99%
+          acceptance rate, showcasing exceptional leadership and commitment to
+          quality results.
         </p>
 
         <div>
