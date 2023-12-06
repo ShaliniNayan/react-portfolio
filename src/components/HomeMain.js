@@ -18,14 +18,15 @@ const HomeMain = () => {
           you see and have a project you need coded, don’t hestiate to contact
           me.
         </p>
-      </div>
-      <div>
-        <Link to='/project' className='btn'>
-          Projects
-        </Link>
-        <Link to='/contact' className='btn btn-light'>
-          Contact
-        </Link>
+
+        <div>
+          <Link to='/project' className='btn'>
+            Projects
+          </Link>
+          <Link to='/contact' className='btn btn-light'>
+            Contact
+          </Link>
+        </div>
       </div>
     </div>
   );
