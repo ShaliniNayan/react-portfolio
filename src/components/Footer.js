@@ -1,7 +1,15 @@
 import './FooterStyles.css';
 
 import React from 'react';
-import { FaHome, FaMailBulk } from 'react-icons/fa';
+import {
+  FaAngellist,
+  FaGithubSquare,
+  FaHome,
+  FaLinkedinIn,
+  FaMailBulk,
+  FaMediumM,
+  FaTwitter,
+} from 'react-icons/fa';
 
 const Footer = () => {
   return (
@@ -25,7 +33,40 @@ const Footer = () => {
             </h4>
           </div>
         </div>
-        <div className='right'></div>
+        <div className='right'>
+          <h4>About Myself</h4>
+          <p>
+            Innovative Full-Stack Developer proficient in Ruby on Rails, React,
+            and Material-UI, with a knack for crafting seamless APIs. Elevated
+            user experience by implementing Jest for rigorous testing, ensuring
+            top-notch reliability and functionality. Excels in delivering
+            cutting-edge solutions that blend performance and aesthetics to
+            create remarkable digital experiences. Let's connect to discuss how
+            we can collaborate and take your projects to the next level.
+          </p>
+          <div className='social'>
+            <FaTwitter
+              size={25}
+              style={{ color: '#fff', marginRight: '1rem' }}
+            />
+            <FaLinkedinIn
+              size={25}
+              style={{ color: '#fff', marginRight: '1rem' }}
+            />
+            <FaMediumM
+              size={25}
+              style={{ color: '#fff', marginRight: '1rem' }}
+            />
+            <FaGithubSquare
+              size={25}
+              style={{ color: '#fff', marginRight: '1rem' }}
+            />
+            <FaAngellist
+              size={25}
+              style={{ color: '#fff', marginRight: '1rem' }}
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
