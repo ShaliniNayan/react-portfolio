@@ -8,22 +8,20 @@ const ProjectCard = () => {
   return (
     <div className='project-card'>
           <img src={leader} alt='Leader-board' />
-          <h2 className='project-title'>Leader-Board</h2>
+          <h2 className='project-title'>Project-Title</h2>
           <div className='project-details'>
             <p>
-              This is a JavaScript project for a Leaderboard list app, which
-              uses modern web development tools and techniques such as webpack
-              and ES6 modules.
+             This is description of the project.
             </p>
             <div className='project-btns'>
               <NavLink
-                to='https://github.com/ShaliniNayan/Leaderboard'
+                to='url.com'
                 className='btn'
               >
                 View
               </NavLink>
               <NavLink
-                to='https://shalininayan.github.io/Leaderboard/'
+                to='url.com'
                 className='btn'
               >
                 Source
