@@ -1,6 +1,13 @@
 import { Link } from 'react-router-dom';
 import './AboutMainStyles.css';
 import HtmlCssJS from '../images/js-html-css.png';
+import ReactRedux from '../images/react-redux.png';
+import Ruby from '../images/ruby.png';
+import Rails from '../images/rails.png';
+import Git from '../images/git.png';
+import Github from '../images/github.png';
+import Npm from '../images/npm.png';
+import Postgresql from '../images/postgresql.png';
 
 import React from 'react';
 
@@ -29,6 +36,13 @@ const AboutMain = () => {
         <div className='img-container'>
           <div className='img-stack top'>
             <img src={HtmlCssJS} />
+            <img src={ReactRedux} />
+            <img src={Ruby} />
+            <img src={Rails} />
+            <img src={Git} />
+            <img src={Github} />
+            <img src={Npm} />
+            <img src={Postgresql} />
           </div>
         </div>
       </div>
