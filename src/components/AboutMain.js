@@ -5,9 +5,10 @@ import ReactRedux from '../images/react-redux.png';
 import Ruby from '../images/ruby.png';
 import Rails from '../images/rails.png';
 import Git from '../images/git.png';
-import Github from '../images/github.png';
+// import Github from '../images/github.png';
 import Npm from '../images/npm.png';
 import Postgresql from '../images/postgresql.png';
+import Webpack from '../images/webpack.png';
 
 import React from 'react';
 
@@ -35,14 +36,15 @@ const AboutMain = () => {
         <h1>Languages & Frameworks</h1>
         <div className='img-container'>
           <div className='img-stack top'>
-            <img src={HtmlCssJS} />
-            <img src={ReactRedux} />
-            <img src={Ruby} />
-            <img src={Rails} />
-            <img src={Git} />
-            <img src={Github} />
-            <img src={Npm} />
-            <img src={Postgresql} />
+            <img src={HtmlCssJS} className='img' alt='HTML-CSS-JS' />
+            <img src={ReactRedux} className='img' alt='React-Redux' />
+            <img src={Ruby} className='img' alt='Ruby' />
+            <img src={Rails} className='img' alt='Rails' />
+            <img src={Git} className='img' alt='Git' />
+            {/* <img src={Github} className='img' alt='Github' /> */}
+            <img src={Npm} className='img' alt='NPM' />
+            <img src={Postgresql} className='img' alt='Postgresql' />
+            <img src={Webpack} className='img' alt='Webpack' />
           </div>
         </div>
       </div>
